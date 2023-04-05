@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "423827605152",
+    "firebase_url": "https://plantsquare-589ae-default-rtdb.firebaseio.com",
+    "project_id": "plantsquare-589ae",
+    "storage_bucket": "plantsquare-589ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423827605152:android:9164abf88cb7736dfe6bc5",
+        "android_client_info": {
+          "package_name": "com.example.plant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423827605152-oip78nrqp405achct40oms6anaaco7pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvXjG4BjnfZ5S9VZUTU3oPoxXXsHTLh7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423827605152-oip78nrqp405achct40oms6anaaco7pk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
