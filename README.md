@@ -1,3 +1,3 @@
 # Crops
 for Plant and Crops
-IoT device and data acquistion and control the enviroment
+IoT device - data acquistion / control the enviroment
