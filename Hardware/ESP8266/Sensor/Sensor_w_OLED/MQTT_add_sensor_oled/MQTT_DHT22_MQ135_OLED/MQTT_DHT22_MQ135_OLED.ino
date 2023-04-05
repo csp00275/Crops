@@ -26,7 +26,7 @@ U8G2_SSD1306_128X64_NONAME_1_SW_I2C u8g2(U8G2_R0, /* clock=*/ SCL, /* data=*/ SD
 
 const char* client_id = "ESP8266_1";
 const char* ssid = "JH_HOME_2.4GHz_2G";
-const char* password = "STiG051*";
+const char* password = "";
 const char* mqtt_server = "192.168.50.84";
 WiFiClient espClient;
 PubSubClient client(espClient);
