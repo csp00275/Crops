@@ -2,7 +2,7 @@
 #include <PubSubClient.h>
 
 const char* ssid = "JH_HOME_2.4GHz_2G";
-const char* password = "STiG051*";
+const char* password = "";
 const char* mqtt_server = "192.168.50.84";
 WiFiClient espClient;
 PubSubClient client(espClient);
