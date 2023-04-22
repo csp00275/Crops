@@ -126,7 +126,9 @@ void loop() {
   float correctedRZero = mq135_sensor.getCorrectedRZero(t, h);
   float resistance = mq135_sensor.getResistance();
   float ppm = mq135_sensor.getPPM();
-  int correctedPPM = mq135_sensor.getCorrectedPPM(t, h);
+  int correctedPPM = 0;
+
+//  int correctedPPM = mq135_sensor.getCorrectedPPM(t, h);
 
 
   Serial.print("Humidity: ");
