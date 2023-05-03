@@ -38,7 +38,7 @@ void loop() {
   float h = dht.readHumidity();
   float t = dht.readTemperature();
   int cdsVal = analogRead(A0); // CDS 센서의 값 읽어오기
-  int cdsValueMapped = map(cdsValue, 0, 1023, 0, 255); // 0~1023 범위를 0~255 범위로 매핑
+  int cdsValueMapped = map(cdsVal, 0, 1023, 0, 255); // 0~1023 범위를 0~255 범위로 매핑
 
   float lux = a * cdsValueMapped + b; // 캘리브레이션 값으로 조도 값 계산
  
